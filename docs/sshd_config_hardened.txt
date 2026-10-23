@@ -1,0 +1,11 @@
+Include /etc/ssh/sshd_config.d/*.conf
+LoginGraceTime 30
+PermitRootLogin no
+MaxAuthTries 3
+PubkeyAuthentication yes
+AuthorizedKeysFile	.ssh/authorized_keys
+PasswordAuthentication no
+PermitEmptyPasswords no
+Subsystem	sftp	/usr/libexec/openssh/sftp-server
+AuthorizedKeysCommand /opt/aws/bin/eic_run_authorized_keys %u %f
+AuthorizedKeysCommandUser ec2-instance-connect

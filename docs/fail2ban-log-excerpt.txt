@@ -1,0 +1,6 @@
+2026-10-23 09:24:59,815 fail2ban.filter         [58316]: INFO    [sshd] Found 127.0.0.1 - 2026-10-23 09:24:59
+2026-10-23 09:24:59,816 fail2ban.filter         [58316]: INFO    [sshd] Found 127.0.0.1 - 2026-10-23 09:24:59
+2026-10-23 09:24:59,817 fail2ban.filter         [58316]: INFO    [sshd] Found 127.0.0.1 - 2026-10-23 09:24:59
+2026-10-23 09:24:59,847 fail2ban.actions        [58316]: NOTICE  [sshd] Ban 127.0.0.1
+2026-10-23 09:25:00,173 fail2ban.filter         [58316]: INFO    [sshd] Found 127.0.0.1 - 2026-10-23 09:24:59
+2026-10-23 09:27:42,148 fail2ban.actions        [58316]: NOTICE  [sshd] Unban 127.0.0.1
